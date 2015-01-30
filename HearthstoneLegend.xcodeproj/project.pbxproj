@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		590E87951A7BF01B00789259 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590E87941A7BF01B00789259 /* AppDelegate.swift */; };
+		590E87971A7BF01B00789259 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 590E87961A7BF01B00789259 /* Images.xcassets */; };
+		590E879A1A7BF01B00789259 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 590E87981A7BF01B00789259 /* MainMenu.xib */; };
+		590E87A61A7BF01B00789259 /* HearthstoneLegendTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 590E87A51A7BF01B00789259 /* HearthstoneLegendTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		590E87A01A7BF01B00789259 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 590E87871A7BF01B00789259 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 590E878E1A7BF01B00789259;
+			remoteInfo = HearthstoneLegend;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		590E878F1A7BF01B00789259 /* HearthstoneLegend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HearthstoneLegend.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		590E87931A7BF01B00789259 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		590E87941A7BF01B00789259 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		590E87961A7BF01B00789259 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		590E87991A7BF01B00789259 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		590E879F1A7BF01B00789259 /* HearthstoneLegendTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HearthstoneLegendTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		590E87A41A7BF01B00789259 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		590E87A51A7BF01B00789259 /* HearthstoneLegendTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HearthstoneLegendTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		590E878C1A7BF01B00789259 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		590E879C1A7BF01B00789259 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		590E87861A7BF01B00789259 = {
+			isa = PBXGroup;
+			children = (
+				590E87911A7BF01B00789259 /* HearthstoneLegend */,
+				590E87A21A7BF01B00789259 /* HearthstoneLegendTests */,
+				590E87901A7BF01B00789259 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		590E87901A7BF01B00789259 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				590E878F1A7BF01B00789259 /* HearthstoneLegend.app */,
+				590E879F1A7BF01B00789259 /* HearthstoneLegendTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		590E87911A7BF01B00789259 /* HearthstoneLegend */ = {
+			isa = PBXGroup;
+			children = (
+				590E87941A7BF01B00789259 /* AppDelegate.swift */,
+				590E87961A7BF01B00789259 /* Images.xcassets */,
+				590E87981A7BF01B00789259 /* MainMenu.xib */,
+				590E87921A7BF01B00789259 /* Supporting Files */,
+			);
+			path = HearthstoneLegend;
+			sourceTree = "<group>";
+		};
+		590E87921A7BF01B00789259 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				590E87931A7BF01B00789259 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		590E87A21A7BF01B00789259 /* HearthstoneLegendTests */ = {
+			isa = PBXGroup;
+			children = (
+				590E87A51A7BF01B00789259 /* HearthstoneLegendTests.swift */,
+				590E87A31A7BF01B00789259 /* Supporting Files */,
+			);
+			path = HearthstoneLegendTests;
+			sourceTree = "<group>";
+		};
+		590E87A31A7BF01B00789259 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				590E87A41A7BF01B00789259 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		590E878E1A7BF01B00789259 /* HearthstoneLegend */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 590E87A91A7BF01B00789259 /* Build configuration list for PBXNativeTarget "HearthstoneLegend" */;
+			buildPhases = (
+				590E878B1A7BF01B00789259 /* Sources */,
+				590E878C1A7BF01B00789259 /* Frameworks */,
+				590E878D1A7BF01B00789259 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HearthstoneLegend;
+			productName = HearthstoneLegend;
+			productReference = 590E878F1A7BF01B00789259 /* HearthstoneLegend.app */;
+			productType = "com.apple.product-type.application";
+		};
+		590E879E1A7BF01B00789259 /* HearthstoneLegendTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 590E87AC1A7BF01B00789259 /* Build configuration list for PBXNativeTarget "HearthstoneLegendTests" */;
+			buildPhases = (
+				590E879B1A7BF01B00789259 /* Sources */,
+				590E879C1A7BF01B00789259 /* Frameworks */,
+				590E879D1A7BF01B00789259 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				590E87A11A7BF01B00789259 /* PBXTargetDependency */,
+			);
+			name = HearthstoneLegendTests;
+			productName = HearthstoneLegendTests;
+			productReference = 590E879F1A7BF01B00789259 /* HearthstoneLegendTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		590E87871A7BF01B00789259 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Andy Dremeaux";
+				TargetAttributes = {
+					590E878E1A7BF01B00789259 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					590E879E1A7BF01B00789259 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 590E878E1A7BF01B00789259;
+					};
+				};
+			};
+			buildConfigurationList = 590E878A1A7BF01B00789259 /* Build configuration list for PBXProject "HearthstoneLegend" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 590E87861A7BF01B00789259;
+			productRefGroup = 590E87901A7BF01B00789259 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				590E878E1A7BF01B00789259 /* HearthstoneLegend */,
+				590E879E1A7BF01B00789259 /* HearthstoneLegendTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		590E878D1A7BF01B00789259 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				590E87971A7BF01B00789259 /* Images.xcassets in Resources */,
+				590E879A1A7BF01B00789259 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		590E879D1A7BF01B00789259 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		590E878B1A7BF01B00789259 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				590E87951A7BF01B00789259 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		590E879B1A7BF01B00789259 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				590E87A61A7BF01B00789259 /* HearthstoneLegendTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		590E87A11A7BF01B00789259 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 590E878E1A7BF01B00789259 /* HearthstoneLegend */;
+			targetProxy = 590E87A01A7BF01B00789259 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		590E87981A7BF01B00789259 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				590E87991A7BF01B00789259 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		590E87A71A7BF01B00789259 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		590E87A81A7BF01B00789259 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		590E87AA1A7BF01B00789259 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HearthstoneLegend/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		590E87AB1A7BF01B00789259 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HearthstoneLegend/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		590E87AD1A7BF01B00789259 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HearthstoneLegendTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HearthstoneLegend.app/Contents/MacOS/HearthstoneLegend";
+			};
+			name = Debug;
+		};
+		590E87AE1A7BF01B00789259 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HearthstoneLegendTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HearthstoneLegend.app/Contents/MacOS/HearthstoneLegend";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		590E878A1A7BF01B00789259 /* Build configuration list for PBXProject "HearthstoneLegend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				590E87A71A7BF01B00789259 /* Debug */,
+				590E87A81A7BF01B00789259 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		590E87A91A7BF01B00789259 /* Build configuration list for PBXNativeTarget "HearthstoneLegend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				590E87AA1A7BF01B00789259 /* Debug */,
+				590E87AB1A7BF01B00789259 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		590E87AC1A7BF01B00789259 /* Build configuration list for PBXNativeTarget "HearthstoneLegendTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				590E87AD1A7BF01B00789259 /* Debug */,
+				590E87AE1A7BF01B00789259 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 590E87871A7BF01B00789259 /* Project object */;
+}
